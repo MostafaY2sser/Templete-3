@@ -8,35 +8,29 @@
 body{
     font-family: "Roboto", sans-serif;
 }
-
 html{
     scroll-behavior: smooth;
 }
-
 :root{
     --main-color : #2196f3 ;
     --main-color-alt : #1787e0 ;
     --main-transtion : .4s ;
     --back-colo : #ececec ;
 }
-
 ul{
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 a{
     text-decoration: none;
 }
-
 .container{
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-
 /* Small */
 @media (min-width : 768px){
     .container{
@@ -61,10 +55,6 @@ a{
         width: 1390px;
     }
 }
-
-
-
-
 .main-title{
     text-align: center;
     margin: 100px auto ;
@@ -121,24 +111,7 @@ a{
     border-radius:0 ;
 }
 
-
-
 /* End  Global  Rules _______________________________________________________________________________________ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Start  Header _______________________________________________________________________________________  */
 .header .container {
@@ -156,7 +129,6 @@ a{
         height: 120px;
     }
 }
-
 .header .container .logo a{
     font-size: 35px;
     font-weight: bolder;
@@ -172,8 +144,6 @@ a{
         height: 70px;
     }
 }
-
-
 .header ul{
     display: flex;
     align-items: center;
@@ -184,8 +154,6 @@ a{
         margin: auto;
     }
 }
-
-
 .header .container ul > li > .first{
     display: flex;
     justify-content: center;
@@ -205,7 +173,6 @@ a{
         height: 40px;
     }
 }
-
 .header .container ul > li > .first::after{
     content: "";
     position: absolute;
@@ -223,9 +190,6 @@ a{
     color: var(--main-color);
     background-color :#fafafa;
 } 
-
-
-
 .header .magemenu {
     position: absolute;
     width: 100%;
@@ -255,7 +219,6 @@ a{
         text-align: start;
     }
 }
-
 .header .magemenu .links{
     display: flex;
     flex-direction: column;
@@ -273,12 +236,10 @@ a{
         width: 100%;
     }
 }
-
 .header .magemenu .links li{
     position: relative;
     border-bottom: 1px solid #2222222b;
 }
-
 .header .magemenu .links li::before{
     content: "";
     position: absolute;
@@ -290,11 +251,9 @@ a{
     transition: var(--main-transtion);
     z-index: -1;
 }
-
 .header .magemenu .links li:hover::before{
     width: 100%;
 }
-
 .header .magemenu .links li a{
     color: var(--main-color);
     padding: 15px;
@@ -302,11 +261,9 @@ a{
     font-size: 22px;
     font-weight: bold;
 } 
-
 .header .magemenu .links .linkOne li a i{
     margin-right: 10px;
 }
-
 .header .magemenu .image {
     width: 50%;
 }
@@ -318,46 +275,13 @@ a{
         display: none;
     }
 }
-
-
-
 /* Start  Header _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start  Landing _______________________________________________________________________________________ */
 .landing{
     position: relative;
     overflow: hidden;
-
 }
-
 .landing::before{
     content: "";
     width: 100%;
@@ -370,7 +294,6 @@ a{
     transform: skewy(-6deg);
     transform-origin: top left;
 }
-
 .landing .container{
     min-height: calc(100vh - 80px);
     display: flex;
@@ -378,11 +301,9 @@ a{
     height: 530px;
     padding-bottom: 120px;
 }
-
 .landing .container .text{
     flex: 1;
 }
-
 @media ( max-width : 1000px) {
     .landing .container .text{
         text-align: center;
@@ -390,7 +311,6 @@ a{
         padding-bottom: 70px ;
     }
 }
-
 .landing .container .text h1{
     font-size: 40px;
     font-family: sans-serif;
@@ -402,11 +322,9 @@ a{
         font-size: 30px;
     }
 }
-
 .landing .container .text h1 span{
     color: var(--main-color);
 }
-
 .landing .container .text p{
     font-size: 24px;
     line-height: 1.7 ;
@@ -424,7 +342,6 @@ a{
         font-size: 18px;
     }
 }
-
 .landing .container .image img{
     position: relative;
     width: 600px;
@@ -435,8 +352,6 @@ a{
         display: none;
     }
 }
-
-
 .landing .go-down{
     color: var(--main-color);
     position: absolute;
@@ -456,7 +371,6 @@ a{
 }
 /*  Start  Landing _______________________________________________________________________________________ */
 
-
 /*  Start Anmation _______________________________________________________________________________________ */
 @keyframes up-and-down {
     0% , 100% {
@@ -466,7 +380,6 @@ a{
             top: -70px;
     }
 }
-
 @keyframes down {
     0%,30%, 60%,80%, 100%{
         bottom: 0;
@@ -475,35 +388,7 @@ a{
         bottom: 25px;
     }
 }
-
 /*  End Anmation _______________________________________________________________________________________ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start Artical _______________________________________________________________________________________   */
 .artical{
@@ -529,7 +414,6 @@ a{
         grid-template-columns: 1fr;
     }
 }
-
 .artical .container .bigBox .box{
     box-shadow: 0 2px 15px 0px rgba(0, 0, 0, 0.121) ;
     border-radius: 10px ;
@@ -542,28 +426,23 @@ a{
     transform: translateY(-20px);
     box-shadow: 0 2px 20px 0px rgba(0, 0, 0, 0.272) ;
 }
-
 .artical .container .bigBox .box img{
     width: 100%;
     min-width: 100%;
 }
-
 .artical .container .bigBox .box .text{
     padding-left: 25px;
 }
-
 .artical .container .bigBox .box h3{
     font-size: 22px;
     font-weight: bolder;
 }
-
 .artical .container .bigBox .box p{
     color: #777;
     font-size: 18px;
     line-height: 30px;
     font-weight: 400 ;
 }
-
 .artical .container .bigBox .box .info{
     display: flex;
     align-items: center;
@@ -571,17 +450,14 @@ a{
     border-top: 1px solid #6666662b;
     padding: 20px;
 }
-
 .artical .container .bigBox .box .info a{
     font-size: 22px;
     font-weight: bold;
     color: #2196f3;
 }
-
 .artical .container .bigBox .box .info .icon{
     color: var(--main-color);
 }
-
 .artical .container .bigBox .box:hover .info .icon{
     animation: to-right .5s linear infinite ;
 }
@@ -590,34 +466,7 @@ a{
         transform: translateX(10px);
     }
 }
-
 /*  End Artical _______________________________________________________________________________________   */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start  Gallery  _______________________________________________________________________________________ */
 .gallery {
@@ -627,7 +476,6 @@ a{
     padding-top: 1px;
     padding-bottom: 100px;
 }
-
 .gallery .container{
     display: grid;
     grid-template-columns: repeat( 3 , 1fr );
@@ -643,7 +491,6 @@ a{
         grid-template-columns: 1fr;
     }
 }
-
 .gallery .container .image{
     background-color: white;
     padding: 15px;
@@ -655,8 +502,6 @@ a{
 .gallery .container .image:hover img{
     transform: rotate(5deg) scale(1.1) ;
 }
-
-
 .gallery .container .image::before{
     content: "";
     position: absolute;
@@ -671,19 +516,12 @@ a{
     z-index: 2;
 }
 .gallery .container .image:hover::before{
-    /* width: calc(100% - 22px);
-    height: calc(100% - 34px); */
     animation: flashing 0.7s;
 }
-
-
 .gallery .container .image img{
     max-width: 100%;
     transition: var(--main-transtion);
 }
-
-
-
 @keyframes flashing {
     0% , 40%{
         opacity: 1;
@@ -694,51 +532,21 @@ a{
         height: 200%;
     }
 }
-
-
-
 /*  End  Gallery  _______________________________________________________________________________________ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  Start  Features _______________________________________________________________________________________  */
-
 .features {
     position: relative;
 }
-
 .features .container{
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
     gap: 40px;
 }
-
 .features .container .box{
     text-align: center;
     border: 1px solid #ccc;
 }
-
 .features .container .box .img-holder{
     position: relative;
     overflow: hidden;
@@ -760,16 +568,13 @@ a{
     border-width: 0 0 200px 440px;
     border-color: transparent transparent white transparent;
     transition: var(--main-transtion);
-
 }
 .features .container .box:hover .img-holder::after{
     border-width: 200px  500px  200px  0;
 }
-
 .features .container .box .img-holder img{
     max-width: 100%;
 }
-
 .features .container .box h1{
     position: relative;
     font-size: 40px;
@@ -784,7 +589,6 @@ a{
     height: 5px;
     width: calc(100%);
 }
-
 .features .container .box p{
     font-size: 20px;
     line-height: 2;
@@ -792,7 +596,6 @@ a{
     padding: 25px;
     color: #777;
 }
-
 .features .container .box a{
     display :block;
     width: fit-content;
@@ -813,91 +616,53 @@ a{
     transition: .5s;
     z-index: -2;
 }
-
-  .features .quality .img-holder::before {
+.features .quality .img-holder::before {
     background-color: rgb(244 64 54 / 60%);
-  }
-  .features .quality h2::after {
+}
+.features .quality h2::after {
     background-color: #f44036;
-  }
-  .features .quality a {
+}
+.features .quality a {
     color: #f44036;
     border-color: #f44036;
     background: linear-gradient(to right, #f44036 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     border: 3px solid  #f44036 ;
-  }
-  .features .time .img-holder::before {
+}
+.features .time .img-holder::before {
     background-color: rgb(0 150 136 / 60%);
-  }
-  .features .time h2::after {
+}
+.features .time h2::after {
     background-color: #009688;
-  }
-  .features .time a {
+}
+.features .time a {
     color: #009688;
     border-color: #009688;
     background: linear-gradient(to right, #009688 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     border: 3px solid #009688;
-  }
-  .features .passion .img-holder::before {
+}
+.features .passion .img-holder::before {
     background-color: rgb(3 169 244 / 60%);
-  }
-  .features .passion h2::after {
+}
+.features .passion h2::after {
     background-color: #03a9f4;
-  }
-  .features .passion a {
+}
+.features .passion a {
     color: #03a9f4;
     border-color: #03a9f4;
     background: linear-gradient(to right, #03a9f4 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     border: 3px solid #03a9f4;
-  }
-  .features .box:hover a {
+}
+.features .box:hover a {
     background-position: left bottom;
     color: white;
-  }
-
-
-
-
+}
 /*  End  Features _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start  Testimonials _______________________________________________________________________________________  */
 .testimonials{
@@ -954,35 +719,6 @@ a{
     font-weight: 400;
 }
 /*  End  Testimonials _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start  Team _______________________________________________________________________________________  */
 .team {
@@ -1071,36 +807,6 @@ a{
 }
 /*  End  Team _______________________________________________________________________________________  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  Start  Services _______________________________________________________________________________________  */
 .services {
     background-color: #ececec;
@@ -1184,41 +890,13 @@ a{
     background-color: #d5d5d5;
     transform: skewX(-30deg); 
 }
-
 .services .container .box .info a{
     padding: 17px 20px 0 0  ;
     font-size: 20px;
     color: var(--main-color);
     float: right;
 }
-
 /*  End  Services _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start   Skills _______________________________________________________________________________________  */
 .our-Skills .container{
@@ -1261,38 +939,7 @@ a{
     top: 0;
     background-color: var(--main-color);
 }
-
-
 /*  End   Skills _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start   Works _______________________________________________________________________________________  */
 .works{
@@ -1366,35 +1013,7 @@ a{
     line-height: 1.5;
     font-weight: 400;
 }
-
 /*  End   Works _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start   Events _______________________________________________________________________________________  */
 .events .up{
@@ -1507,11 +1126,9 @@ padding: 20px 0 0 0 ;
     cursor: pointer;
     transition: var(--main-transition);
 }
-
 .events .subscribe form .submit:hover {
     background-color: var(--main-color-alt);
 }
-
 @media ( max-width: 767px) {
     .events .subscribe form {
         display: flex;
@@ -1522,30 +1139,6 @@ padding: 20px 0 0 0 ;
     }
 }
 /*  End   Events _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start   pricing _______________________________________________________________________________________  */
 .pricing{
@@ -1684,39 +1277,8 @@ padding: 20px 0 0 0 ;
     border-style: solid;
     border-color: transparent transparent white transparent;
     border-width: 20px;
-
 }
-
 /*  End   pricing _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start   Vedios _______________________________________________________________________________________  */
 .vedios .holder{
@@ -1753,7 +1315,6 @@ padding: 20px 0 0 0 ;
     padding-top: 10px;
     color: #666;
 }
-
 .vedios .holder .vedio{
     background-color: #ececec;
     display: flex;
@@ -1773,7 +1334,6 @@ padding: 20px 0 0 0 ;
     max-width: 90%;
     margin-left: 23px;
 }
-
 @media (max-width:1200px) {
     .vedios .holder {
         display: flex;
@@ -1788,33 +1348,6 @@ padding: 20px 0 0 0 ;
     }
 }
 /*  End   Vedios _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  Start   Stats _______________________________________________________________________________________  */
 .stats{
@@ -1894,34 +1427,10 @@ padding: 20px 0 0 0 ;
 }
 /*  End   Stats _______________________________________________________________________________________  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  Start   Discount _______________________________________________________________________________________  */
 .discound {
     display: flex;
 }
-
 .discound .left{
     width: 50%;
     background-color: var(--main-color-alt);
@@ -1985,7 +1494,6 @@ padding: 20px 0 0 0 ;
 .discound .form input:focus {
     outline: none;
 }
-
 @media (max-width :1100px) {
     .discound {
         display: flex;
@@ -1995,7 +1503,6 @@ padding: 20px 0 0 0 ;
         width: 100%;
     }
 }
-
 @media (max-width :700px) {
     .discound .left .title{
         font-size: 30px;
@@ -2008,26 +1515,6 @@ padding: 20px 0 0 0 ;
     }
 }
 /*  End   Discount _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  start   Footer _______________________________________________________________________________________  */
 .footer{
@@ -2046,10 +1533,6 @@ padding: 20px 0 0 0 ;
         padding: 20px ;
     }
 }
-
-
-
-
 .footer .social h1{
     font-size: 50px ;
     font-weight: 900;
@@ -2088,15 +1571,7 @@ padding: 20px 0 0 0 ;
     color: #ececec6f;
     line-height: 1.8;
     font-size: 300;
-
 }
-
-
-
-
-
-
-
 .footer .links li{
     padding: 20px 0 ;
 }
@@ -2118,12 +1593,6 @@ padding: 20px 0 0 0 ;
     padding-right: 10px;
     font-weight: bolder;
 }
-
-
-
-
-
-
 .footer .location .line{
     display: flex;
     padding-bottom: 50px;
@@ -2145,10 +1614,6 @@ padding: 20px 0 0 0 ;
     margin: 2px;
     border: 3px solid white;
 }
-
-
-
-
 .footer .copy{
     text-align: center;
     color: #939292;
@@ -2157,27 +1622,3 @@ padding: 20px 0 0 0 ;
     border-top: 1px solid #666;
 }
 /*  End   Footer _______________________________________________________________________________________  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
